@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import { Button } from "./button";
 
-export const Item = ({ text }) => {
+
+export const Item = ({ text, onClick }) => {
   return (
     <div className="item">
       <div className="item-content">
         {text}
-        <Button content="X" color="#0e1086b8" />
+        <Button onClick ={onClick} content="X" color="#0e1086b8" />
       </div>
     </div>
   );
