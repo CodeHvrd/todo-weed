@@ -34,6 +34,7 @@ code {
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  color: #000;
 }
 
 .button-container{
